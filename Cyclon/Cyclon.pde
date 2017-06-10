@@ -82,6 +82,11 @@ public void draw(){
             createHexagon( 2.5 + i * 2.5 * sin( randN * TWO_PI ), 
                            7.5 + i * 5.0 * cos( randN * TWO_PI ), 
                            25.0 );
+                           
+            createHexagon( -( 2.5 + i * 2.5 * sin( randN * TWO_PI ) ), 
+                           -( 7.5 + i * 5.0 * cos( randN * TWO_PI ) ), 
+                           25.0 );
+            
         popMatrix();
     }
     
