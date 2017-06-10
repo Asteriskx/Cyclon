@@ -92,7 +92,7 @@ public void draw(){
 // createHexagon
 // Argument : float sx -> Making Hexagon to center X point.
 //          : float sy -> Making Hexagon to center Y point.
-//          : float sy -> Making Hexagon Size.
+//          : float size -> Making Hexagon Size.
 // Return   : None
 //-----------------------------------------------------
 public void createHexagon( float sx, float sy, float size ) { 
